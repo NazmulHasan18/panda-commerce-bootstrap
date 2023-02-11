@@ -34,9 +34,9 @@ document.getElementById("subscribe").addEventListener("dblclick", function () {
 });
 var img = document.getElementById("img-change");
 img.addEventListener("mouseenter", function () {
-   if (img.src != "../images/bags/bag-2.png") {
-      img.src = "../images/bags/bag-2.png";
+   if (img.src != "./images/bags/bag-2.png") {
+      img.src = "./images/bags/bag-2.png";
    } else {
-      img.src = "../images/bags/bag-3.png";
+      img.src = "./images/bags/bag-3.png";
    }
 });
